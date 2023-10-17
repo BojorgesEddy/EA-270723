@@ -1,0 +1,500 @@
+    7  fas
+    8  fas
+    9  pwd
+   10  clear
+   11  ls
+   12  ls -l
+   13  ls -l
+   14  ls
+   15  clear
+   16  cd Desktop
+   17  cd Desktop
+   18  cd
+   19  pwd
+   20  cd ..
+   21  cd Mantenimiento
+   22  pwd
+   23  cd
+   24  pwd
+   25  cd .
+   26  pwd
+   27  explore .
+   28  start .
+   29  start ..
+   30  start ...
+   31  open .
+   32  start .
+   33  1
+   34  start ..
+   35  start ...
+   36  clear
+   37  cd ..
+   38  cd ~
+   39  cd /
+   40  pwd
+   41  cd c
+   42  history
+   43  cd ~
+   44  pwd
+   45  cd Dekstop
+   46  clear
+   47  pwd
+   48  cd Desktop
+   49  mkdir foldercito
+   50  mkdir foldercito
+   51  cd foldercito
+   52  start.
+   53  start /
+   54  start .
+   55  touch main.py
+   56  start .
+   57  echo "hola mundo"
+   58  echo "print ('Hola Mundo')" > main.py
+   59  cat main.py
+   60  touch uno.py
+   61  touch dos.py
+   62  touch tres.py
+   63  touch principal.py
+   64  clear
+   65  curl https://jsonplaceholder.typicode.com/users
+   66  #!/usr/bin/env bash
+   67  echo "Downloading game, this will take some time..."
+   68  git clone -b releases --single-branch https://github.com/infinitefusion/infinitefusion-e18.git
+   69  mv ./version_control/species.dat	./infinitefusion-e18/Data
+   70  rm -f -r ./infinitefusion-e18/Graphics/CustomBattlers
+   71  mv ./version_control/CustomBattlers	./infinitefusion-e18/Graphics
+   72  echo "Cleaning up installation files..."
+   73  rm -f install.bat
+   74  rm -f git_clone.sh
+   75  ./infinitefusion-e18/Game.exe &
+   76  pwd
+   77  cd desktop
+   78  mkdir text
+   79  cd text
+   80  curl https://jsonplaceholder.typicode.com/todos -o todo.json
+   81  ls -l
+   82  ls text
+   83  ls todo.json
+   84  ls -l
+   85  start .
+   86  cat todo.json
+   87  curl https://jsonplaceholder.typicode.com/todos | grep -o '"userId": "[^"]*"' cut -d '"' -f4
+   88  curl https://jsonplaceholder.typicode.com/todos | grep -o '"userId": "[^"]*"' cut -d '"' -f1
+   89  curl https://jsonplaceholder.typicode.com/todos | grep -o '"userId": "[^"]*"' cut -d ',' -f4
+   90  curl https://jsonplaceholder.typicode.com/todos | grep -o '"userId": [^]*"' cut -d ',' -f4
+   91  curl https://jsonplaceholder.typicode.com/todos | grep -o '"userId": [^]*' cut -d ',' -f4
+   92  curl https://jsonplaceholder.typicode.com/todos | jq -r '´.[0].userId'
+   93  curl https://jsonplaceholder.typicode.com/todos | grep -0 'userId'
+   94  curl https://jsonplaceholder.typicode.com/users | grep 'phone'
+   95  curl -s https://jsonplaceholder.typicode.com/users | grep 'phone'
+   96  curl -s https://jsonplaceholder.typicode.com/users | grep 'phone' > touch phone.txt
+   97  touch phones.txt
+   98  ls}
+   99  ls
+  100  curl -s https://jsonplaceholder.typicode.com/users | grep 'phone' > phones.txt
+  101  cat phones.txt
+  102  start .
+  103  curl -s https://jsonplaceholder.typicode.com/users | grep 'phone' > fono.txt
+  104  ls
+  105  curl -s https://jsonplaceholder.typicode.com/users | grep 'website' > website.txt
+  106  ls
+  107  cat website.txt
+  108  curl -s https://jsonplaceholder.typicode.com/users | grep 'website','phone' > nuevo.txt
+  109  cat nuevo.txt
+  110  ls
+  111  cat nuevo.txt
+  112  cat phones.txt website.txt
+  113  cat phones.txt website.txt > infor.txt
+  114  ls
+  115  infor.txt
+  116  cat infor.txt
+  117  echo "print('hola mundo')"
+  118  cd Desktop | touch holamundo.txt
+  119  ls -l
+  120  ls
+  121  cd desktop > touch holamundo.txt
+  122  cd desktop | touch holamundo.txt
+  123  start .
+  124  cd
+  125  cd
+  126  clear
+  127  pwd
+  128  cd /
+  129  pwd
+  130  touch hola.txt | Desktop
+  131  touch hola.txt | cd Desktop
+  132  touch ~/Desktop/hola.txt
+  133  cd ~/Desktop
+  134  cd Desktop
+  135  pwd
+  136  cd c
+  137  cd mantenimiento
+  138  cd mantenimiento
+  139  cd Mantenimiento
+  140  cd c
+  141  cd
+  142  cd Desktop
+  143  clear
+  144  mkdir myFiles
+  145  touch hola1.txt hola2.txt
+  146  mv hola1.txt hola2.txt hola.txt myFiles/
+  147  cat ~/MyFiles
+  148  ls ~/MyFiles
+  149  ls myFiles/
+  150  mv hola1.txt hola2.txt hola.txt desktop.ini 
+  151  mv hola1.txt hola2.txt hola.txt ../Desktop/
+  152  mv myFiles/hola1.txt myFiles/hola2.txt myFiles/hola.txt ../Desktop/
+  153  mv ~/hola1.txt ~/hola2.txt ~/hola.txt ./
+  154  mv ~/hola1.txt ~/hola2.txt ~/hola.txt ./Desktop
+  155  mv ~/hola1.txt ~/hola2.txt ~/hola.txt .~/Desktop
+  156  mv ~/hola1.txt ~/hola2.txt ~/hola.txt ~/Desktop
+  157  touch hola4.txt hola5.txt hola6.txt hola7.txt hola1.py hola2.py hola3.py hola4.py
+  158  mv hola*.py* myFiles/
+  159  mv hola* myFiles/
+  160  touch hola11.txt
+  161  touch hola22.txt
+  162  touch holala.txt
+  163  ls hola?.txt
+  164  ls hola1?.txt
+  165  ls hola1?.txt
+  166  mv hola1?.txt
+  167  rm hola*.py* myFiles/
+  168  rm hola*.py* ~myFiles/
+  169  rm myFiles/*.py myFiles/*.cs
+  170  touch hola8.txt hola9.py hola10.cs | mv hola*.* myFiles/
+  171  touch hola9.txt hola4.py hola1.cs | mv hola*.* myFiles/
+  172  read name
+  173  echo $name
+  174  read age
+  175  echo $age
+  176  echo $name tiene $age
+  177  mkfir bashscropting
+  178  mkfir bashscropting
+  179  mkdir bashscropting
+  180  mkdir bashscripting
+  181  cd bashscripting/
+  182  mkdir 1 2 3 4
+  183  ls
+  184  ramo 1 2 3 4
+  185  rm 1 2 3 4
+  186  rm -rf 1
+  187  ls
+  188  touch myfirstscript.sh
+  189  ls
+  190  rm -rf 2 3 4
+  191  ls
+  192  ls -l myfirstscript.sh 
+  193  ls 
+  194  chmod +x myfirstscript.sh 
+  195  ls -l myfirstscript.sh 
+  196  chmod 777 myfirstscript.sh 
+  197  ls -l myfirstscript.sh 
+  198  history
+  199  code myfirstscript.sh 
+  200  cd desktop
+  201  mkdir controlstructures
+  202  cd controlstructures/
+  203  code .
+  204  mkfir taller
+  205  mkdir taller
+  206  clear
+  207  cd taller
+  208  mkdir carpeta1 carpeta2 carpeta3
+  209  start
+  210  start.
+  211  start .
+  212  rmdir carpeta1 carpeta2 carpeta3
+  213  start .
+  214  mkdir -p carpeta1/carpeta2/carpeta3
+  215  start .
+  216  ping
+  217  ping google.com
+  218  ls
+  219  ls -l
+  220  tree
+  221  trea
+  222  cmd //c tree
+  223  start /
+  224  tree
+  225  tree
+  226  tree ./
+  227  history
+  228  cat history > historial.txt
+  229  touch historial.txt
+  230  cat history > historial.txt
+  231  history > historial.txt
+  232  start .
+  233  clear
+  234  code ./
+  235  #!/usr/bin/env bash
+  236  echo "Updating files..."
+  237  cd ./infinitefusion-e18
+  238  if git pull; then 	:; else 	echo ""; 	echo "You've changed some game files. Restore the files to restore the weave of fate, or persist in the doomed world you have created."; 	read -p "Restore the files and update the game? (y/n) " yn; 	case $yn in 		[yY] )  			echo ""; 			git checkout .; 			git pull; 			;; 		[nN] ) 			;; 		* ) 			echo ""; 			echo "invalid key"; 			;; 	esac; fi
+  239  cd ..
+  240  mv ./git_pull.sh		./version_control
+  241  read -p "Press any key to exit..." -n 1
+  242  cd desktop
+  243  mkadir bash
+  244  mkdir bash
+  245  cd bash
+  246  clear
+  247  cd .. ; mkdir terminal ; cd terminal
+  248  touch loops.sh
+  249  chmod +x loop.sh
+  250  chmod +x loops.sh
+  251  nano loops.sh
+  252  cat loops.sh
+  253  nano loops.sh
+  254  ./loops.sh
+  255  nano loops.sh
+  256  ./loops.sh
+  257  nano loops.sh
+  258  code .
+  259  git init
+  260  git status
+  261  git add .
+  262  git commit -m "Iniciamos proyecto y agregamos practica 1"
+  263  git config --global user.mail bojorges.eddy@uabc.edu.mx
+  264  git config --global user.name BojorgesEddy
+  265  git branch -M main 
+  266  git remote add origin https://github.com/BojorgesEddy/PracticasDSW.git
+  267  git push -u origin main
+  268  git push -u origin main
+  269  git push -u origin main
+  270  git push -u origin main
+  271  git init
+  272  git add README.md
+  273  git status
+  274  git add .
+  275  git commit -m "Iniciamos proyecto y agregamos practica 1"
+  276  git config --global user.mail bojorges.eddy@uabc.edu.mx
+  277  git config --global user.name BojorgesEddy
+  278  git branch -M main 
+  279  git remote add origin https://github.com/BojorgesEddy/PracticasDSW.git
+  280  git push -u origin main
+  281  git push -u 
+  282  git commit -m "Iniciamos proyecto y agregamos practica 1"
+  283  git init
+  284  git status
+  285  git add .
+  286  git commit -m "Iniciamos proyecto y agregamos practica 1"
+  287  git config --global user.mail bojorges.eddy@uabc.edu.mx
+  288  git config --global user.name BojorgesEddy
+  289  git commit -m "Iniciamos proyecto y agregamos practica 1"
+  290  git config --global user.mail bojorges.eddy@uabc.edu.mx
+  291  git config --global user.name AlumnoFCA
+  292  git commit -m "Iniciamos proyecto y agregamos practica 1"
+  293  git remove rm origin
+  294  git remote rm origin
+  295  git init 
+  296  git commit -m "Paginas Web"
+  297  git branch -M main
+  298  git remote add origin https://github.com/BojorgesEddy/PracticasDSW.git
+  299  git push -u origin main
+  300  git config --global user.mail bojorges.eddy@uabc.edu.mx 
+  301  git config --global user.name BojorgesEddy
+  302  git commit -m "Paginas Web"
+  303  git config --global user.mail "bojorges.eddy@uabc.edu.mx"
+  304  git config --global user.name "BojorgesEddy"
+  305  git commit -m "Paginas Web"
+  306  git commit -m "Paginas Web"
+  307  git config --global user.mail "bojorges.eddy@uabc.edu.mx"
+  308  git config --global user.name "BojorgesEddy"
+  309  git commit -m "Paginas Web"
+  310  git commit -m "Paginas Web"
+  311  git push -u origin main
+  312  git push -u origin main
+  313  git status
+  314  git push -u origin main
+  315  git add practica 3
+  316  git add practica_3
+  317  git push -u origin main
+  318  git status
+  319  git init
+  320  git status
+  321  git init
+  322  git status
+  323  git add .
+  324  git config --global user.mail bojorges.eddy@uabc.edu.mx
+  325  git config --global user.name BojorgesEddy
+  326  git branch -M main
+  327  git commit -m "Iniciamos proyecto y agregamos practica 1"
+  328  git remote add origin https://github.com/BojorgesEddy/PracticasDSW.git
+  329  git push -u origin main
+  330  git status 
+  331  git status 
+  332  git add .
+  333  git commit -m "Pagina web"
+  334  git status
+  335  git push
+  336  history > historial260923.txt
+  337  mkdir projecto_1
+  338  cd projecto_1
+  339  rmdir projecto_1
+  340  cd ..
+  341  rmkdir projecto_1/
+  342  rmdir projecto_1/
+  343  cd desktop
+  344  mkdir projecto1
+  345  cd projecto1/
+  346  touch historia.txt
+  347  code historia.txt 
+  348  code .
+  349  git code https://github.com/BojorgesEddy/Python.git
+  350  git clone https://github.com/BojorgesEddy/Python.git
+  351  ls 
+  352  start .
+  353  cls
+  354  clear
+  355  git branch -M main
+  356  git status
+  357  git status
+  358  git add historia.txt
+  359  cd xampp
+  360  cd xampp
+  361  cd c
+  362  cd ..
+  363  cd xampp
+  364  cd ..
+  365  cd xampp
+  366  cd htdocs/web/practicaCLase/
+  367  echo for in {1..23}; do mkdir "pract$i"; done
+  368  git init 
+  369  echo for in {1..23}; do mkdir "pract$i"; done
+  370  for in {1..23}; do mkdir "pract$i"; done
+  371  code .
+  372  git branch -M main
+  373  git status
+  374  git init
+  375  git status
+  376  git add pract1
+  377  git commit -m "Practica 1 Paginas web"
+  378  git push
+  379  git push -u origin main
+  380  git branch -M main
+  381  git status
+  382  git push 
+  383  git push -origin main
+  384  git iniy
+  385  git init
+  386  git config --global user.email bojorges.eddy@uabc.edu.mx
+  387  git config --global user.name BojorgesEddy
+  388  git branch -M main
+  389  git status
+  390  git add pract1
+  391  git commit -m "Practica 1 - Sitios Web"
+  392  git remote add origin https://github.com/BojorgesEddy/PracticasDSW.git
+  393  git push -u origin main
+  394  git add pract2
+  395  git push -u origin main
+  396  git status
+  397  git add pract2
+  398  git commit -m "Practica 2 - ejemplo de formatos"
+  399  git push -u origin main
+  400  git add pract3
+  401  git commit -m "Practica 3 - uso de etiquetas dic, article, header, footer"
+  402  git push
+  403  git add pract4
+  404  git commit -m "Practica 4 - Uso de listas"
+  405  git push
+  406  git add pract5
+  407  git commit -m "Practica 5 - Uso de HREF"
+  408  git push
+  409  git add pract6
+  410  git commit -m "Practica 5 - Uso de etiquetas dt, dd, ol"
+  411  git push
+  412  git add pract7
+  413  git commit -m "Practica 7 - Uso de tablas"
+  414  git push
+  415  git add pract8
+  416  git commit -m "Practica 8 - Acomod de tablas rowspan, colspan"
+  417  git push
+  418  git add pract9
+  419  git commit -m "Practica 9 - uso de TR TH TD"
+  420  git push
+  421  git add pract10
+  422  git commit -m "Practica 10 - Primer formulario"
+  423  git push
+  424  git add pract11
+  425  git commit -m "Practica 11 - segundo formulario"
+  426  git push
+  427  git add pract12
+  428  git commit -m "Practica 12 - Lista con link y fotos"
+  429  git push
+  430  git add pract13
+  431  git commit -m "Practica 13 - Acomodo de tablas"
+  432  git push
+  433  git add pract14
+  434  git commit -m "Practica 14 - Formulario de Registro"
+  435  git push
+  436  git add pract15
+  437  git commit -m "Practica 15 - Uso de etiquetas input y sus variantes"
+  438  git push
+  439  git add pract16
+  440  git commit -m "Practica 16 - Conexion de CSS"
+  441  git push
+  442  git add pract17
+  443  git commit -m "Practica 17 - Acomodo por CSS"
+  444  git push
+  445  git add pract18
+  446  git commit -m "Practica 18 - uso de Id"
+  447  git push
+  448  git add pract19
+  449  git commit -m "Practica 19 - uso de class"
+  450  git add pract20
+  451  git commit -m "Practica 20 - uso childs"
+  452  git push
+  453  git add pract21
+  454  git commit -m "Practica 21 - uso de css en formulario"
+  455  git push
+  456  git add pract22
+  457  git commit -m "Practica 22 - uso de css para acomodo"
+  458  git push
+  459  git add pract23
+  460  git commit -m "Practica 23 - Explicacion de paginas"
+  461  git push
+  462  git add pract24/
+  463  git commit -m "Practica 24 - Calculadora con JS y HTML"
+  464  git push
+  465  git status
+  466  git add pract25/
+  467  git commit -m "Practica 25 - Uso de Operadores Relacionales <,>,>=,<=,==,!="
+  468  git push 
+  469  cd desktop
+  470  mkdir scriptbash
+  471  cd scriptbash/
+  472  code .
+  473  history
+  474  history
+  475  git init
+  476  git add pract26
+  477  git commit -m "Practica 26 - Uso de la sentencia if, comparacion de dos numeros"
+  478  git push
+  479  git add pract27
+  480  git commit -m "Practica 27 - Uso de la sentecnia else if y switch, Calcular peso en marte y jupiter"
+  481  git push
+  482  historial
+  483  history
+  484  history
+  485  history
+  486  code create.sh
+  487  echo "# 3722023-2" >> README.md
+  488  git init
+  489  git add README.md
+  490  git commit -m "firts commit"
+  491  git branch -M main
+  492  git remote add origin https://github.com/BojorgesEddy/3722023-2.git
+  493  git config --list
+  494  git push -u origin main
+  495  git status
+  496  git brach --all
+  497  git branch --all
+  498  touch main.py
+  499  echo "print('Segundo Commit')" >> main.py 
+  500  git status
+  501  git add main.py 
+  502  git commit -m "Second Commit"
+  503  git log --oneline
+  504  git push
+  505  git log --oneline
+  506  history > historial16102023.txt
