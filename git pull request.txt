@@ -1,0 +1,25 @@
+  493  git clone github.com/CheemsDoggie/basics_python
+  494  git clone https://github.com/CheemsDoggie/basics_python
+  495  cd basics_python/
+  496  code .
+  497  git init
+  498  git clone github.com/BojorgesEddy/PracticasDSW
+  499  git clone https://github.com/BojorgesEddy/PracticasDSW
+  500  git init
+  501  gir clone https://github.com/BojorgesEddy/workflow3
+  502  git clone https://github.com/BojorgesEddy/workflow3
+  503  cd workflow3/
+  504  git pull
+  505  code main.py
+  506  git remote -v
+  507  git remote add upstream https://github.com/CheemsDoggie/workflow3
+  508  git remote -v
+  509  git status
+  510  git pull upstream main
+  511  git push origin main
+  512  git pull request
+  513  git pull request
+  514  touch archivo.txt
+  515  git add archivo.txt
+  516  git commit -m "Agrege un archivo de texto, bojorges.eddy"
+  517  git push origin main
